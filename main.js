@@ -35,7 +35,7 @@ function condicion(notaFinal){
         promocionados += 1
     } else if(notaFinal>=4 && notaFinal < 7){
         aprobados += 1
-    } else if (notaFinal<4 && notaFinal >1){
+    } else if (notaFinal<4 && notaFinal >=1){
         desaprobados += 1
     }
     return notaFinal,aprobados,desaprobados,promocionados
